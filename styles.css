@@ -45,6 +45,15 @@ body{
 
 }
 
+#intro{
+    color:white;
+}
+
+#number,#taskAmount{
+    color:yellow;
+    display:inline;
+}
+
 .submitbtn{
     outline: none;
     border: none;
@@ -52,7 +61,8 @@ body{
     border-radius: 25px;
     width: 50px;
     background-color: yellow;
-    color: black;
+    color: rgb(0, 0, 0);
+    font:30px Optima, sans-serif;
     cursor: pointer;
     transition: .5s;
     margin: 0.25rem;
@@ -64,8 +74,9 @@ body{
     height: 50px;
     border-radius: 25px;
     width: 50px;
-    background-color:pink;
-    color: black;
+    background-color:rgb(250, 103, 255);
+    font:30px Optima, sans-serif;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     transition: .5s;
     margin: 0.25rem;

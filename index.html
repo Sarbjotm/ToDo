@@ -12,19 +12,21 @@
     <h2 id="titleTo">To</h2> 
     <h2 id="titleDoList">Do List</h2>
     <br>
+    <p id = "intro">To Create a Task: Enter the task in the input box below then press the yellow "+" button. </p>
+    <p id = "intro">To list a task as completed, simply click the task. </p>
+    <p id = "intro">To remove/mark all tasks as completed click the pink "-" button</p>
     <br>
-    <br>
-    <br>
+    <p id = "number">Number of Tasks: </p> <p id="taskAmount">0</p>
     <form action="/action_page.php">
         <label for="task" id="description">Task:</label>
         <input type="text" id="task" name="task">
         <input type="submit" class="submitbtn" value="+" onclick="getTask()">
         <input type="submit" class="removebtn" value="-" onclick="removeTask()">
       </form> 
-
 </div>
 
 <div id = "toDoTasks">
+
 </div>
 
 
