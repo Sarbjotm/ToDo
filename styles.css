@@ -1,0 +1,47 @@
+.content{
+    text-align: center;
+}
+
+body{
+    background-color:black;
+}
+
+#titleTo{
+    color: yellow;
+    display:inline;
+    font:30px Optima, sans-serif;
+    font-weight:800
+}
+
+
+#titleDoList{
+    color:white;
+    display:inline;
+    font:30px Optima, sans-serif;
+    font-weight:800
+}
+
+#task{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;  
+}
+
+.submitbtn{
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
