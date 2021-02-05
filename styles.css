@@ -54,7 +54,7 @@ body{
     display:inline;
 }
 
-.submitbtn{
+#submitbtn{
     outline: none;
     border: none;
     height: 50px;
@@ -68,7 +68,7 @@ body{
     margin: 0.25rem;
 }
 
-.removebtn{
+#removebtn{
     outline: none;
     border: none;
     height: 50px;
